@@ -1,0 +1,15 @@
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.message-list:empty::after {
+  content: "Start a conversation by typing a message below...";
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 2rem;
+  display: block;
+}

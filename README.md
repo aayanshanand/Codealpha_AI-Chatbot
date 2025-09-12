@@ -86,7 +86,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-The backend will start on `http://localhost:8080`
+The backend will start on `http://localhost:3000`
 
 ### Frontend Setup
 
@@ -208,17 +208,6 @@ public void initializeFAQData() {
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support and questions:
-- Open an issue on GitHub
-- Contact: support@chatbot.com
-- Documentation: Check the code comments and this README
 
 ## Future Enhancements
 
